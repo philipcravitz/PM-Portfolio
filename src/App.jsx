@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { ProjectProvider } from './ProjectContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,7 +12,7 @@ import ProjectDetail from './pages/ProjectDetail';
 function App() {
   return (
     <ProjectProvider>
-      <BrowserRouter>
+      <HashRouter>
         <div className="AppWrapper" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <Header />
           <div className="AppContent" style={{ flex: 1 }}>
@@ -26,7 +26,7 @@ function App() {
           </div>
           <Footer /> {/* universal footer on all pages */}
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </ProjectProvider>
   );
 }

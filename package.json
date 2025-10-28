@@ -1,6 +1,7 @@
 {
   "name": "pm-portfolio",
   "version": "1.0.0",
+  "homepage": "https://philipcravitz.github.io/PM-Portfolio",
   "private": true,
   "scripts": {
     "dev": "vite",
