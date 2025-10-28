@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "home-page-redesign",
+    "title": "Home Page Redesign",
+    "summary": "Reimagined Wells Fargo’s mortgage homepage as a modern, data-driven entry point, leading strategy, design, and experimentation to boost user engagement, conversion, and content consistency.",
+    "summaryDetail": "I led the complete redesign of Wells Fargo’s mortgage homepage, turning it into a modern, data-driven hub for customers. By aligning marketing, UX, analytics, and engineering teams, we implemented a clear roadmap that balanced experimentation with long-term strategy. Over eight years, we ran more than 50 A/B tests, continuously refining CTAs, calculators, and content modules. The project not only boosted engagement and conversion but also established a repeatable testing framework that was adopted across other product lines. It became a model for creating measurable, sustainable digital experiences.",
+    "highlights": [
+      "50+ A/B tests, +11% engagement, +7% visit-to-lead conversion",
+      "Standardized content & analytics, insights 30% faster",
+      "Optimized CTAs, rates, calculators, boosting funnel efficiency",
+      "Aligned cross-functional teams for 1.2M monthly users"
+    ],
+    "images": [
+      "/src/assets/WF-Home.png",
+      "/src/assets/WF-Home_Thumb.png"
+    ],
+    "company": "Wells Fargo",
+    "role": "Senior Product Manager, Digital Mortgage Experience",
+    "timeline": "2018-2025",
+    "impactAreas": ["Conversion Optimization", "User Experience", "Experimentation"],
+    "myRole": "Product Manager: Led product strategy and execution for the homepage redesign, aligning marketing, UX, analytics, and engineering around a single roadmap. Defined success metrics, testing strategy, and content governance framework to drive sustainable, measurable improvements.",
+    "approachActions": [
+      "Implemented an iterative experimentation program with over 50 A/B tests spanning eight years.",
+      "Standardized analytics tagging and content modules within Adobe Experience Manager to improve speed and insight quality.",
+      "Partnered with design and content teams to refine information architecture and messaging hierarchy.",
+      "Optimized rate displays, calculators, and CTAs through ongoing funnel analysis and user research."
+    ],
+    "outcomes": [
+      "Increased average visits per user per month from 1.2 → 1.8.",
+      "Delivered 5–10% lifts in conversion with each iteration.",
+      "Generated a new inbound acquisition channel that grew from 0 to 12,000 leads/month within six months.",
+      "Created a repeatable testing model later adopted across multiple product lines."
+    ],
+    "tools": ["Adobe Experience Manager", "Adobe Analytics", "Google Analytics", "Salesforce", "Jira", "Confluence"]
+  },
+  {
+    "slug": "mortgage-digital-transformation",
+    "title": "Digital User Experience Transformation",
+    "summary": "Unified Wells Fargo’s fragmented mortgage ecosystem into a modern, data-driven digital platform, boosting adoption, engagement, and scalability.",
+    "summaryDetail": "I led the transformation of Wells Fargo’s fragmented mortgage platform into a unified, data-driven ecosystem. By integrating personalization, A/B testing, and content governance, we created a seamless experience for millions of users. Unified reporting and tagging frameworks connected marketing, sales, and service data, making insights faster and more actionable. The redesign improved engagement, streamlined operations, and set the foundation for scalable experimentation. This project demonstrated how cross-functional alignment can drive both business growth and user satisfaction.",
+      "highlights": [
+  "Cut site pages from 578 to 155, simplifying maintenance",
+  "Boosted average visits per user from 1.2 → 1.8",
+  "Top 5 search rankings achieved for key mortgage terms"
+],
+    "images": [
+      "/src/assets/ProjectProposal.png",
+      "/src/assets/ProjectProposal_Thumb.png"
+    ],
+    "company": "Wells Fargo",
+    "role": "Senior Product Manager, Digital Transformation",
+    "timeline": "2019-2022",
+    "impactAreas": ["Platform Modernization", "Experimentation Framework", "Customer Engagement"],
+    "myRole": "Owned digital roadmap execution for key mortgage workflows, leading cross-functional teams to design and deploy platform improvements supporting millions of users. Partnered with engineering, analytics, and compliance to balance innovation with security and scalability.",
+    "approachActions": [
+      "Led the integration of A/B testing, personalization, and content governance to support continuous improvement",
+      "Built unified reporting and tagging frameworks that connected marketing, sales, and service data",
+      "Partnered with leadership to define KPIs and dashboard metrics for conversion, engagement, and retention",
+      "Established a scalable experimentation model that linked analytics to customer journey insights"
+    ],
+    "outcomes": [
+      "Reduced site footprint from 578 pages to 155, dramatically lowering maintenance effort and cost, and simplifying compliance and annual reviews.",
+      "Optimized SEO; several pages achieved top 5 search rankings for targeted terms.",
+      "Increased average visits per month per user from 1.2 → 1.8 and pages per visit from 2.2 to 3.4.",
+      "Achieved measurable improvements in user engagement and operational efficiency, laying the foundation for future initiatives."
+    ],
+    "tools": ["Adobe Experience Manager", "Adobe Analytics", "Google Analytics", "Salesforce", "Jira", "Figma"]
+  },
+  {
+    "slug": "lead-form-redesign",
+    "title": "Lead Form Redesign & Optimization",
+    "summary": "Redesigned Wells Fargo’s mortgage lead form to reduce friction and boost qualified leads, achieving a 17% lift in completions.",
+    "summaryDetail": "I redesigned Wells Fargo’s mortgage lead form to make it simpler, faster, and more trustworthy for users. By analyzing user flows, form logic, and drop-off points, we identified opportunities to reduce friction and increase completion rates. Responsive design and accessibility standards ensured a seamless experience across all devices. The redesign lifted form completions by 17% and created templates and analytics tracking now used across other financial products. This project balanced user experience, business goals, and compliance requirements effectively.",
+    "highlights": ["Simplified multi-step form", "Reduced abandonment by 15%", "Improved mobile usability"],
+    "images": [
+      "/src/assets/LeadForm-Design.png",
+      "/src/assets/LeadForm-Design_Thumb.png",
+      "/src/assets/LeadForm-Phases.png",
+      "/src/assets/LeadForm-Phases_Thumb.png",
+      "/src/assets/LeadForm-Principles.png",
+      "/src/assets/LeadForm-Principles_Thumb.png",
+      "/src/assets/LeadForm-ValueX.png",
+      "/src/assets/LeadForm-ValueX_Thumb.png"
+    ],
+    "company": "Wells Fargo",
+    "role": "Senior Product Manager, Acquisition Experience",
+    "timeline": "2020-2021",
+    "impactAreas": ["Conversion Optimization", "Form UX", "Personalization", "Sales Operations"],
+    "myRole": "Owned the end-to-end redesign process—gathering data from analytics, user research, and call center logs to identify drop-off drivers. Collaborated with design, compliance, and engineering to create a form that balanced simplicity, trust, and business value.",
+    "approachActions": [
+      "Mapped user flows and form logic to optimize question order and progressive disclosure.",
+      "Partnered with analytics to test variations and identify high-impact optimizations.",
+      "Introduced responsive design and accessibility standards to support all devices.",
+      "Improved data routing and tracking through integrated API calls and validation rules."
+    ],
+    "outcomes": [
+      "Increased form completion rate by 17%, contributing directly to the growth in qualified leads",
+      "Enhanced data integrity and shortened response time between inquiry and sales contact",
+      "Established design and tagging templates now used across other financial product forms"
+    ],
+    "tools": ["Figma", "Adobe Target", "Google Analytics", "Salesforce", "Jira"]
+  },
+  {
+    "slug": "learning-center",
+    "title": "Digital Learning Center",
+    "summary": "Transformed Wells Fargo’s Mortgage Learning Center into an interactive, SEO-optimized hub, boosting engagement and user trust through data-driven content strategy.",
+    "summaryDetail": "I led the transformation of Wells Fargo’s Mortgage Learning Center into an interactive, engaging, and SEO-friendly resource. By aligning content with user behavior and intent, we created a platform that informed and empowered customers. Interactive tools and modular templates improved engagement while analytics connected usage to downstream conversion goals. Page performance improved significantly, increasing completion metrics by 25%, and SEO gains boosted visibility for key topics. This project reinforced user trust and positioned the Learning Center as a go-to educational hub.",
+    "highlights": [
+      "Drove +25% engagement with educational content",
+      "Improved brand trust",
+      "Supported SEO strategy"
+    ],
+    "images": [
+      "/src/assets/LearningCenter.png",
+      "/src/assets/LearningCenter_Thumb.png"
+    ],
+    "company": "Wells Fargo",
+    "role": "Product Manager",
+    "timeline": "2020-2022",
+    "impactAreas": ["Content Strategy", "SEO", "Customer Education"],
+    "myRole": "Led product strategy and content roadmap for the Learning Center. Partnered with SEO, editorial, and UX teams to align topics, tone, and structure around user intent while maintaining compliance and brand consistency.",
+    "approachActions": [
+      "Conducted behavioral analysis to align content with search intent and decision stages.",
+      "Introduced interactive tools and modular content templates within Adobe Experience Manager.",
+      "Partnered with analytics to connect engagement metrics to downstream conversion goals.",
+      "Implemented improved tagging and internal linking for discoverability and SEO performance."
+    ],
+    "outcomes": [
+      "25% increased page engagement and completion metrics across targeted articles.",
+      "Improved organic search visibility for key mortgage education terms.",
+      "Strengthened user trust and pre-application readiness through streamlined educational flows."
+    ],
+    "tools": ["Adobe Experience Manager", "Google Analytics", "Figma"]
+  },
+  {
+    "slug": "servicing-0-to-1",
+    "title": "Servicing Platform (0 to 1)",
+    "summary": "Built PennyMac’s first digital servicing platform from the ground up, transforming manual mortgage operations into a modern self-service experience that cut costs, boosted adoption, and accelerated delivery.",
+    "summaryDetail": "I spearheaded the creation of PennyMac’s first digital servicing platform, transforming manual mortgage processes into an automated, user-friendly system. By designing secure workflows across payments, escrow, and document management, we cut costs and improved operational efficiency. Analytics were integrated for real-time performance monitoring, and iterative improvements accelerated release cycles dramatically. Self-service adoption grew by 38%, shifting significant call volume away from customer service teams. The platform delivered measurable savings, improved user experience, and set a new standard for digital servicing.",
+    "highlights": [
+      "Cut servicing costs $350K annually through automation.",
+      "Increased self-service adoption 38%, reducing call volume.",
+      "Accelerated release cycles 135% for faster feature delivery."
+    ],
+    "images": [
+      "/src/assets/PennyMac-Servicing.png",
+      "/src/assets/PennyMac-Servicing_Thumb.png"
+    ],
+    "company": "PennyMac",
+    "role": "Senior Product Manager, Servicing Experience",
+    "timeline": "2014-2015",
+    "impactAreas": ["Self-Service Enablement", "Operational Efficiency", "Digital Servicing Transformation"],
+    "myRole": "Defined the vision, roadmap, and requirements for the servicing platform from inception to launch. Partnered with engineering, customer care, and compliance teams to design workflows that reduced cost while elevating the digital experience.",
+    "approachActions": [
+      "Detailed and executed the roadmap to modernize APIs, improve data flow, and automate support processes.",
+      "Designed user-centric workflows across payment, escrow, and document management functions.",
+      "Partnered with developers to implement advanced security and authentication protocols.",
+      "Integrated analytics for continuous performance monitoring and optimization."
+    ],
+    "outcomes": [
+      "Lowered servicing costs by $350K annually through streamlined integrations and automation.",
+      "Accelerated release cycles from 5.2 months to 3 weeks, improving delivery agility by 135%.",
+      "Reduced average resolution time by 40% and improved digital adoption rates.",
+      "Shifted 38% of call volume to self-service, improving satisfaction and efficiency."
+    ],
+    "tools": ["SQL", "Adobe Analytics", "API Frameworks", "Jira"]
+  }
+]
