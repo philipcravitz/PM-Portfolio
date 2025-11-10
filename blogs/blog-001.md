@@ -1,3 +1,11 @@
+---
+title: "My Job Hunt Saga"
+date: "2025-09-01"
+tags: ["Career Reflections", "Professional Growth"]
+---
+
+Balancing user needs, business goals, and technical feasibility is at the heart of prioritization...
+
 It has been over a year now of looking for a new job. I have learned a lot in that time, about the latest job market quirks, techniques and challenges. And I have to say, in summary, it's hard. I know, that is shockingly obvious, and in fairness, reductive, but what else can I say?
 
 I have customized my resume, researched my target companies, leaned (lightly) on my network and have never been afraid to seriously consider any opportunity. And yet, I have applied to over 2,000 positions, gotten a handful of interviews and not been given any job offers... yet. 
