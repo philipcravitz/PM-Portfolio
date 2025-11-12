@@ -1,6 +1,6 @@
 ---
 title: "My Job Hunt Saga"
-date: "2025-09-01"
+date: "September 1, 2025"
 tags: ["Career Reflections", "Professional Growth"]
 ---
 
