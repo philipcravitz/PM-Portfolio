@@ -1,0 +1,166 @@
+[
+  {
+    "id": "blog-001",
+    "title": "My Job Hunt Saga",
+    "date": "September 1, 2025",
+    "tags": [
+      "Career Reflections",
+      "Professional Growth"
+    ],
+    "path": "blogs/blog-001.md"
+  },
+  {
+    "id": "blog-002",
+    "title": "When Your Job Hunt Steals Your Fun—And How I Got It Back",
+    "date": "September 9, 2025",
+    "tags": [
+      "Job Search Journey",
+      "Mental Health",
+      "Personal Growth"
+    ],
+    "path": "blogs/blog-002.md"
+  },
+  {
+    "id": "blog-003",
+    "title": "AI Ate My Homework — And Other Bonafide Excuses Why the Job Market Is So Hard",
+    "date": "September 14, 2025",
+    "tags": [
+      "AI & Job Search",
+      "Career Tools & Productivity",
+      "Authenticity in Tech"
+    ],
+    "path": "blogs/blog-003.md"
+  },
+  {
+    "id": "blog-004",
+    "title": "Kissing Frogs – A Job Seeker’s Journey to Self-Awareness",
+    "date": "September 21, 2025",
+    "tags": [
+      "Career Reinvention & Self-Reflection",
+      "Authentic Job Searching",
+      "Empathy & Human Connection"
+    ],
+    "path": "blogs/blog-004.md"
+  },
+  {
+    "id": "blog-005",
+    "title": "I’m Over Here! Going Hoarse in a Cacophony of Voices",
+    "date": "September 28, 2025",
+    "tags": [
+      "Authentic Storytelling & Personal Voice",
+      "Job Search Visibility & Human Connection",
+      "Resilience Through Humor & Emotional Intelligence"
+    ],
+    "path": "blogs/blog-005.md"
+  },
+  {
+    "id": "blog-006",
+    "title": "Say Hello to My (Smarter) Little Friend: How AI Is Getting Personal",
+    "date": "October 1, 2025",
+    "tags": [
+      "Human–AI Collaboration",
+      "Future of Work & Product Management",
+      "Ethics, Trust & Human-Centered Design"
+    ],
+    "path": "blogs/blog-006.md"
+  },
+  {
+    "id": "blog-007",
+    "title": "“Why”… It Matters – Making A Better Product Manager",
+    "date": "October 21, 2025",
+    "tags": [
+      "Curiosity as a Superpower",
+      "Product Management & Problem-Solving",
+      "Growth Mindset & Humility"
+    ],
+    "path": "blogs/blog-007.md"
+  },
+  {
+    "id": "blog-008",
+    "title": "Why the Chicken Should Never Cross the Road—But Does Anyway",
+    "date": "October 28, 2025",
+    "tags": [
+      "Curiosity & Insight",
+      "Data-Driven Decision Making",
+      "Human Judgment & Storytelling"
+    ],
+    "path": "blogs/blog-008.md"
+  },
+  {
+    "id": "blog-009",
+    "title": "What If – The Yes And of Product Leadership",
+    "date": "October 30, 2025",
+    "tags": [
+      "Creative Problem-Solving",
+      "Product Leadership & Collaboration",
+      "Experimentation & Validation"
+    ],
+    "path": "blogs/blog-009.md"
+  },
+  {
+    "id": "blog-010",
+    "title": "You’re Not Stuck, You’re in Draft Mode",
+    "date": "November 2, 2025",
+    "tags": [
+      "Iteration & Continuous Improvement",
+      "Growth Mindset",
+      "Professional Development / Productivity"
+    ],
+    "path": "blogs/blog-010.md"
+  },
+  {
+    "id": "blog-011",
+    "title": "The Humor Edge: Why Laughing at Work (and Life) Improves Productivity",
+    "date": "November 4, 2025",
+    "tags": [
+      "Humor as a Leadership & Engagement Tool",
+      "Human Connection in the Workplace",
+      "Practical Impact of Soft Skills"
+    ],
+    "path": "blogs/blog-011.md"
+  },
+  {
+    "id": "blog-012",
+    "title": "No Authority? No Problem. How to Motivate Without the Boss Badge",
+    "date": "November 7, 2025",
+    "tags": [
+      "Leading Without Authority",
+      "Collaboration and Buy-In",
+      "Human-Centered Leadership"
+    ],
+    "path": "blogs/blog-012.md"
+  },
+  {
+    "id": "blog-013",
+    "title": "How Successful Product Managers Turn Conflicting Dialects into 'User'",
+    "date": "November 4, 2025",
+    "tags": [
+      "Cross-Functional Communication",
+      "User-Centered Focus",
+      "Curiosity and Empathy in Product Leadership"
+    ],
+    "path": "blogs/blog-013.md"
+  },
+  {
+    "id": "blog-014",
+    "title": "How to Get Fewer People in the Room for a Masterful Show",
+    "date": "November 8, 2025",
+    "tags": [
+      "Career Reinvention & Self-Reflection",
+      "Authentic Job Searching",
+      "Empathy & Human Connection"
+    ],
+    "path": "blogs/blog-014.md"
+  },
+  {
+    "id": "blog-015",
+    "title": "Comfort is the enemy of usable products",
+    "date": "November 10, 2025",
+    "tags": [
+      "User-Centered Empathy",
+      "Challenging Comfort and Bias",
+      "Iterative Learning and Reflection"
+    ],
+    "path": "blogs/blog-015.md"
+  }
+]

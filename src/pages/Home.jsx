@@ -8,6 +8,7 @@ import ProjectIndexThumb from '../assets/Project-Index.png';
 import LinkedInThumb from '../assets/LinkedIn.png';
 import ContactThumb from '../assets/Contact-Me.png';
 import PhilImage from '../assets/Phil.png';
+import ArticleThumb from '../assets/Articles.png';
 
 function Hero() {
   return (
@@ -23,6 +24,7 @@ function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
+        <div style={{ height: '100px' }}></div> {/* Spacer to clear fixed header */}
         <h1>Hi, I’m Philip Cravitz</h1>
         <h2>Product Leader | Strategist | Builder of Impactful Experiences</h2>
         <p>
@@ -75,17 +77,37 @@ function Home() {
               Connect
             </a>
           </div>
+  {/* Blog Index Tile */}
+  <div className="tile">
+    <img src={ArticleThumb} alt="Blog Index" className="tile-thumb" />
+    <h3>Articles</h3>
+    <p>
+      Explore my latest articles on product management, strategy, and design thinking, where I share insights and experiences from my career.
+    </p>
+    <Link to="/blog" className="tile-button">
+      Read Blogs
+    </Link>
+  </div>
 
-          <div className="tile">
-            <img src={ContactThumb} alt="Contact Me" className="tile-thumb" />
-            <h3>Contact me</h3>
-            <p>
-              Have a question or collaboration idea? Reach out via email and I’ll get back to you quickly.
-            </p>
-            <a href="#contact" className="tile-button">
-              Get in touch
-            </a>
-          </div>
+<div className="tile">
+  <img src={ContactThumb} alt="Contact Me" className="tile-thumb" />
+  <h3>Contact me</h3>
+  <p>
+    Have a question or collaboration idea? Reach out via email and I’ll get back to you quickly.
+  </p>
+  <button
+    className="tile-button"
+    onClick={() => {
+      const footer = document.getElementById('contact');
+      if (footer) {
+        footer.scrollIntoView({ behavior: 'smooth' });
+      }
+    }}
+  >
+    Get in touch
+  </button>
+</div>
+
         </section>
 
 {/* About Me Section */}

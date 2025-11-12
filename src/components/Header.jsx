@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React, { useContext, useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ProjectContext } from '../ProjectContext';
@@ -13,86 +12,85 @@ function Header() {
     setMenuOpen(false);
   }, [location.pathname]);
 
-  // Close mobile menu on desktop resize
+  // Close menu if resizing back to desktop
   useEffect(() => {
     function onResize() {
-      if (window.innerWidth > 768) setMenuOpen(false);
+      if (window.innerWidth > 768) {
+        setMenuOpen(false);
+      }
     }
     window.addEventListener('resize', onResize);
     return () => window.removeEventListener('resize', onResize);
   }, []);
 
+  const isBlogDetail = location.pathname.startsWith('/blog/');
+  const isBlogList = location.pathname === '/blog';
+
+  const title = isBlogDetail
+    ? null
+    : isBlogList
+    ? 'Dispatches from a Product Mind'
+    : projectTitle && projectTitle.trim() !== ''
+    ? projectTitle
+    : 'Portfolio';
+
   return (
-    <>
-      <header className="site-header relative flex items-center justify-between">
-        {/* Left: Logo */}
-        <div className="flex items-center">
-          <Link to="/" aria-label="Home">
-            <img src="/images/pc-logo.png" alt="Philip Cravitz Logo" />
-          </Link>
+    <header className="site-header">
+      <div className="header-left">
+        <Link to="/" aria-label="Home">
+          <img src="images/pc-logo.png" alt="Philip Cravitz Logo" />
+        </Link>
+      </div>
+
+      {title && (
+        <div className={`page-title ${menuOpen ? 'opacity-0' : 'opacity-100'}`}>
+          {title}
         </div>
+      )}
 
-        {/* Center: Desktop Page Title */}
-        <div
-          className="center-title"
-          aria-hidden={menuOpen ? 'true' : 'false'}
+      <nav className={`header-nav ${menuOpen ? 'show' : ''}`}>
+        <a
+          href="#contact"
+          className="header-link"
+          onClick={(e) => {
+            e.preventDefault();
+            const footer = document.getElementById('contact');
+            if (footer) footer.scrollIntoView({ behavior: 'smooth' });
+            setMenuOpen(false);
+          }}
         >
-          {projectTitle && projectTitle.trim() !== '' ? projectTitle : 'Portfolio'}
-        </div>
-
-        {/* Right: Desktop nav buttons */}
-        <nav className="header-buttons" aria-label="Primary">
-          <a href="#contact" className="header-button connect">
-            Connect
-          </a>
-          <Link to="/projects" className="header-button engage">
-            Engage
-          </Link>
-        </nav>
-
-        {/* Hamburger for mobile */}
-        <button
-          className={`hamburger ${menuOpen ? 'open' : ''}`}
-          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(prev => !prev)}
-          type="button"
+          Connect
+        </a>
+        <span className="divider">|</span>
+        <Link
+          to="/projects"
+          className="header-link"
+          onClick={() => setMenuOpen(false)}
         >
-          <span className="bar" />
-          <span className="bar" />
-          <span className="bar" />
-        </button>
+          Engage
+        </Link>
+        <span className="divider">|</span>
+<Link
+  to="/blog"
+  className="header-link"
+  onClick={() => setMenuOpen(false)}
+>
+  Read
+</Link>
+      </nav>
 
-        {/* Mobile dropdown */}
-        <div
-          className={`nav-links ${menuOpen ? 'show' : ''}`}
-          role="menu"
-          aria-hidden={!menuOpen}
-        >
-          <a
-            href="#contact"
-            className="header-button connect"
-            role="menuitem"
-            onClick={() => setMenuOpen(false)}
-          >
-            Connect
-          </a>
-          <Link
-            to="/projects"
-            className="header-button engage"
-            role="menuitem"
-            onClick={() => setMenuOpen(false)}
-          >
-            Engage
-          </Link>
-        </div>
-      </header>
-
-      {/* Mobile page title below header */}
-      <h1 className="mobile-page-title">
-        {projectTitle && projectTitle.trim() !== '' ? projectTitle : 'Portfolio'}
-      </h1>
-    </>
+      <button
+        className={`hamburger ${menuOpen ? 'open' : ''}`}
+        aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+        aria-expanded={menuOpen}
+        onClick={() => setMenuOpen(prev => !prev)}
+        type="button"
+      >
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </button>
+    </header>
   );
 }
 

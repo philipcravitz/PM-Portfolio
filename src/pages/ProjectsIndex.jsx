@@ -31,7 +31,7 @@ function ProjectsIndex() {
   ];
 
   return (
-    <main className="container" style={{ padding: '2rem 1rem' }}>
+    <main className="container" style={{ padding: '120px 1rem 2rem' }}>
       <section id="projects-list" className="projects-grid">
         {projects.map((proj, index) => (
           <div key={proj.slug} className="project-card">

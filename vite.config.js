@@ -1,13 +1,15 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/PM-Portfolio/',
+  // Base should be '/' for hash routing to ensure assets load correctly
+  base: '/',
   plugins: [react()],
   build: {
-    rollupOptions: {
-      input: path.resolve(__dirname, 'src/main.jsx') // REQUIRED for GitHub Pages build
-    }
-  }
-})
+    outDir: 'dist', // default, can be changed if needed
+    assetsDir: 'assets',
+  },
+  server: {
+    port: 3000,
+  },
+});

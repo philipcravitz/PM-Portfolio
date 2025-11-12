@@ -66,6 +66,7 @@ export default function ProjectDetail() {
   return (
     <main className="project-detail-container">
       {/* My Role + Hero */}
+      <div style={{ height: '100px', flexShrink: 0 }}></div> {/* Spacer to clear header */}
       <section className="project-section hero-two-column">
         <div className="project-content">
           <h2>Summary</h2>
