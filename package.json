@@ -5,11 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "generate:blogs": "node generateBlogManifest.js",
+    "prebuild": "npm run generate:blogs",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-     "generate:blogs": "node generateBlogManifest.js"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",

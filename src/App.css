@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* Ensure no default left positioning */
+  left: 0 !important; 
 }
 
 html {
@@ -14,12 +16,17 @@ body {
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
+  /* 💥 GLOBAL FIX: Apply negative margin to counter stubborn browser default left gap */
+  margin: 0 0 0 -2px !important; 
+  /* Prevent horizontal scrollbar from negative margin */
+  overflow-x: hidden !important; 
 }
 
 /* Container */
 .container {
-  max-width: 1250px;
-  margin: 0 auto;
+  max-width: 100%;
+  /* Use !important to ensure re-centering after body margin shift */
+  margin: 0 auto !important; 
   padding: 2rem;
 }
 
@@ -55,16 +62,11 @@ img {
 }
 
 /* Hero section */
-.hero {
-  width: 100%;
-  height: 60vh;
-  margin-top: 80px;
-  background-image: url('/src/assets/Hero.png');
-  background-size: cover;
-  background-position: center 20%;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
+.hero-content {
+    width: 100% !important;
+    max-width: none !important; 
+    /* Use vertical padding only, as horizontal padding is now on text elements */
+    padding: 2rem 0;
 }
 
 .hero-content h1,
@@ -73,15 +75,24 @@ img {
 }
 
 .hero-overlay {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 120px 2rem 2rem 2rem;
-}
+    /* DESKTOP/DEFAULT: 60% width, centered */
+    width: 60% !important; 
+    max-width: none !important;
+    /* Add padding to the sides of the whole text area */
+    padding-left: 2rem;
+    padding-right: 2rem;
 
-.hero-content {
-  max-width: 800px;
-  text-align: center;
+    /* Center using auto margins */
+    margin: 0 auto !important;
+    
+    /* 💥 CRITICAL FIX: The line below was invalid and caused a parse error */
+    /* margin-left: calc(auto + 2px) !important; <--- REMOVED */
+
+    /* Ensure 'left' property works by adding position: relative */
+    position: relative; 
+    
+    /* Shift element 1px right to visually re-center, compensating for body's -2px shift */
+    left: 1px;
 }
 
 .cta-button {
@@ -176,11 +187,11 @@ img {
 
 .mobile-title {
   font-size: 1.5rem;
-  white-space: normal;        /* allow wrapping */
+  white-space: normal; 
   text-overflow: clip;
-  padding: 0 0.5rem;          /* some horizontal breathing room */
-  flex: 1 1 auto;             /* flexible width in flex container */
-  word-break: break-word;     /* wrap long words */
+  padding: 0 0.5rem; 
+  flex: 1 1 auto; 
+  word-break: break-word; 
 }
 
 /* Desktop nav */
@@ -649,15 +660,6 @@ img {
     border-top: 1px solid #ddd;
   }
 
-  .hero {
-    height: 50vh;
-    background-position: center 25%;
-  }
-
-  .hero-content {
-    padding-top: 120px;
-  }
-
   .about-me-split {
     flex-direction: column;
     padding: 1rem;
@@ -680,12 +682,12 @@ img {
 
   .page-title {
     font-size: 1.3rem;
-    white-space: normal;       /* allow wrapping */
-    overflow: visible;         /* don’t clip */
+    white-space: normal; 
+    overflow: visible; 
     text-overflow: clip;
-    padding: 0 0.5rem;         /* breathing room */
-    flex: 1 1 auto;            /* flexible width */
-    word-break: break-word;    /* wrap long words */
+    padding: 0 0.5rem; 
+    flex: 1 1 auto; 
+    word-break: break-word; 
   }
 
   .desktop-nav {
@@ -724,7 +726,7 @@ img {
   }
 
   .mobile-title {
-    display: block;            /* ensure visible */
+    display: block; 
     font-size: 1.5rem;
     white-space: normal;
     text-overflow: clip;
@@ -735,5 +737,74 @@ img {
 
   .hamburger {
     display: flex;
+  }
+    
+  /* 💥 AGGRESSIVE CONTAINER RESET - MOBILE */
+  /* Combines the two previous duplicates and relies on global body margin fix */
+  body, #root, #app, .page-wrapper, .container, .hero {
+      padding: 0 !important;
+      /* Only need to be sure the right margin is 0, global fix handles left */
+      margin-right: 0 !important; 
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      width: 100% !important;
+      overflow-x: hidden !important; 
+  }
+
+  /* 1. HERO (Outermost Container) */
+  .hero {
+      /* CRITICAL FIX: Change fixed height to minimum height */
+      min-height: 50vh !important; 
+      height: auto !important; /* Allow it to grow */
+      
+      position: relative !important;
+      left: 0 !important;
+      right: 0 !important;
+  }
+
+  /* 2. HERO-OVERLAY (Fixed alignment) */
+  .hero-overlay {
+      width: 100% !important; 
+      max-width: none !important;
+      
+      /* Force element to the left edge */
+      position: absolute !important;
+      top: 0 !important;
+      
+      /* Revert left to 0, relying on global body margin fix */
+      left: 0 !important; 
+      
+      margin: 0 !important; 
+      padding: 0 !important; /* Horizontal padding should be applied to text elements below */
+  }
+  
+  /* 3. HERO-CONTENT (Fixes vertical offset and Framer Motion) */
+  .hero-content {
+      width: 100% !important; 
+      max-width: none !important;
+      box-sizing: border-box !important;
+      
+      /* OVERRIDE for Framer Motion: */
+      transform: none !important; 
+      
+      /* CRITICAL FIX: Reduce top padding to correctly position below header */
+      padding-top: calc(50px + 1.5rem) !important; 
+      
+      padding-bottom: 2rem !important; 
+      
+      /* Horizontal padding must be zero here */
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+
+  /* 4. SIDE PADDING ON TEXT ELEMENTS (Creates buffer, prevents wrapping) */
+  .hero-content h1,
+  .hero-content h2,
+  .hero-content p {
+      width: 100% !important;
+      /* This padding provides the visual gap from the screen edge */
+      padding-left: 1rem !important; 
+      padding-right: 1rem !important;
+      box-sizing: border-box !important;
   }
 }

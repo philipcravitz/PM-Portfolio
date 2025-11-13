@@ -1,6 +1,6 @@
 import React from 'react';
 import './app.css';
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { ProjectProvider } from './ProjectContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -39,9 +39,7 @@ function AppRoutes() {
 function App() {
   return (
     <ProjectProvider>
-      <HashRouter>
-        <AppRoutes />
-      </HashRouter>
+      <AppRoutes />
     </ProjectProvider>
   );
 }

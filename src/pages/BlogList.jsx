@@ -1,44 +1,16 @@
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import fm from "front-matter";
-import blogManifest from "../data/blogs.json";
+import blogManifest from "../data/blogs.json"; // Already includes blog content
 
 export default function BlogList() {
-  const [allBlogs, setAllBlogs] = useState([]);
   const [sortOrder, setSortOrder] = useState("newest"); // "newest" | "alphabetical"
   const observer = useRef(null);
 
+  // 💥 SCROLL FIX: Scroll to the top when the component mounts
   useEffect(() => {
-    async function loadBlogs() {
-      const loaded = await Promise.all(
-        blogManifest.map(async (entry) => {
-          const url = `/${entry.path}`;
-          try {
-            const res = await fetch(url);
-            const raw = await res.text();
-            const parsed = fm(raw);
-
-            return {
-              id: entry.id,
-              title: parsed.attributes.title || entry.title,
-              date: parsed.attributes.date || entry.date,
-              teaser: parsed.body.trim().split("\n")[0],
-            };
-          } catch (err) {
-            console.error(`Failed to load ${entry.id}:`, err);
-            return null;
-          }
-        })
-      );
-
-      const sorted = loaded
-        .filter(Boolean)
-        .sort((a, b) => new Date(b.date) - new Date(a.date));
-
-      setAllBlogs(sorted);
-    }
-
-    loadBlogs();
+    // This ensures the page always starts at the top when navigating to /blog
+    window.scrollTo(0, 0);
+    // Dependency array is empty ([]), so this only runs once when the component is first loaded
   }, []);
 
   // Intersection Observer for fade-in
@@ -54,17 +26,17 @@ export default function BlogList() {
       },
       { threshold: 0.1 }
     );
-  }, []);
 
-  useEffect(() => {
     const elements = document.querySelectorAll(".blog-card-wrapper");
     elements.forEach((el) => observer.current.observe(el));
+
     return () => observer.current.disconnect();
-  }, [allBlogs, sortOrder]);
+  }, [sortOrder]); // ⚠️ IMPORTANT: Added 'sortOrder' to re-observe elements after sorting
 
   // Sort the blogs based on user selection
-  const sortedBlogs = [...allBlogs].sort((a, b) => {
+  const sortedBlogs = [...blogManifest].sort((a, b) => {
     if (sortOrder === "newest") {
+      // Use date strings for comparison, assuming format like 'YYYY-MM-DD'
       return new Date(b.date) - new Date(a.date);
     } else if (sortOrder === "alphabetical") {
       return a.title.localeCompare(b.title);
@@ -90,6 +62,7 @@ export default function BlogList() {
       </div>
 
       <section className="blog-list">
+        {/* Placeholder logic for pre-rendered content if needed, removed for simplicity */}
         {sortedBlogs.map((blog) => (
           <div key={blog.id} className="blog-card-wrapper">
             <Link to={`/blog/${blog.id}`} className="blog-preview">

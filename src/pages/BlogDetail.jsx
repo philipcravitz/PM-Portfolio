@@ -1,65 +1,58 @@
-import { useParams, Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import fm from 'front-matter';
+import { useParams, Link } from "react-router-dom";
+// 💥 Import useEffect
+import { useMemo, useEffect } from "react"; 
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import blogManifest from "../data/blogs.json";
 
 export default function BlogDetail() {
   const { id } = useParams();
-  const [content, setContent] = useState('');
-  const [meta, setMeta] = useState({ title: '', date: '', tags: [] });
 
+  // 💥 SCROLL FIX: Scroll to the top when the component mounts or the ID changes
   useEffect(() => {
-    const url = `${import.meta.env.BASE_URL}blogs/${id}.md`;
-    console.log('Fetching blog from:', url);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant' // Ensures the scroll happens immediately
+    });
+  }, [id]); // This ensures scrolling happens when navigating between different blog posts
 
-    fetch(url)
-      .then(res => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return res.text();
-      })
-      .then(raw => {
-        const parsed = fm(raw);
-        setContent(parsed.body || '');
-        setMeta(parsed.attributes || { title: '', date: '', tags: [] });
-      })
-      .catch(err => {
-        console.error('Fetch failed:', err);
-        setContent('# Blog not found');
-        setMeta({ title: 'Not Found', date: '', tags: [] });
-      });
-  }, [id]);
+  // Lookup blog in manifest (no fetch needed)
+  const blog = useMemo(
+    () => blogManifest.find((b) => b.id === id) || null,
+    [id]
+  );
+
+  if (!blog) {
+    return (
+      <main>
+        <h1>Blog not found</h1>
+        <Link to="/blog">← Back to All Posts</Link>
+      </main>
+    );
+  }
 
   return (
     <main className="blog-detail-container">
+      <nav className="back-link">
+        <Link to="/blog">← Back to All Posts</Link>
+      </nav>
+
       <article className="blog-content">
-        {/* Updated back-link for React Router with hash */}
-        <nav className="back-link">
-          <Link to="/blog" onClick={() => {
-            // optional: scroll to top of projects page or hash
-            setTimeout(() => {
-              const el = document.getElementById('blog');
-              if (el) el.scrollIntoView({ behavior: 'smooth' });
-            }, 50);
-          }}>
-            ← Back to All Posts
-          </Link>
-        </nav>
-
-        {meta.title && <h1>{meta.title}</h1>}
-
+        <h1>{blog.title}</h1>
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
-          {content || 'This post could not be rendered. Please check back later.'}
+          {blog.body}
         </ReactMarkdown>
       </article>
 
       <aside className="blog-sidebar">
-        {meta.date && <p className="date">{meta.date}</p>}
-
-        {meta.tags?.length > 0 && (
+        {blog.date && <p className="date">{blog.date}</p>}
+        {blog.tags?.length > 0 && (
           <div className="tag-list">
-            {meta.tags.map(tag => (
-              <span key={tag} className="tag">{tag}</span>
+            {blog.tags.map((tag) => (
+              <span key={tag} className="tag">
+                {tag}
+              </span>
             ))}
           </div>
         )}
