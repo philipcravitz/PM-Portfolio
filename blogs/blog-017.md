@@ -1,18 +1,36 @@
 ---
-title: "Hot take: Dungeons & Dragons players make great marketers"
-date: "November 17, 2025"
-tags: ["Collaborative Storytelling", "Empathy", "Adaptability", "Creativity", "Narrative Building"]
+title: "The Two-Star Trap: Avoiding the Complaint Zone"
+date: "November 21, 2025"
+tags: ["Kano Model", "Customer Delight", "Product Strategy", "User-Centered Design", "Innovation"]
 ---
-Not because we can quote spell slots or tell you the AC of a gelatinous cube, but because years of collaborative storytelling hard-wire the exact skills marketing actually requires: empathy, improvisation, audience understanding, and the courage to build a story together in real time.
+Congratulations, your customers are currently not complaining!
+That sound of silence is actually the whimper of market irrelevance. Here's how to ditch mediocrity for magic.
 
-Most people haven’t slogged through a dungeon at 2 a.m. arguing about whose turn it is to open the ominous door, fair. But the beauty of D&D isn’t the fantasy world; it’s the narrative engine under the hood. Imagine reading the best novel of your life, except it’s being written live by a small group of friends. Each person controls only one character, yet together they create something richer than any of them could build alone. That collaborative DNA is exactly what great marketers rely on every day.
+You're a professional. You know that if the basic stuff fails, the non-negotiables (the app crashes, the load time is slow), you’ve landed smack in the Complaint Zone. That’s obvious.
 
-In a D&D campaign, success is never solo. One player’s brilliant idea is useless if the team doesn’t build around it. That mirrors how marketing works, ideas become meaningful only when they resonate across a group: your team, your stakeholders, and most importantly, your audience. When you learn to co-create stories with others, you learn how to build campaigns that feel authentic instead of forced.
+But if you only focus on delivering those non-negotiables, making the app stable, fast, and feature-complete, you've achieved Adequacy. That's the Expectation Zone.
 
-And then there’s the role-playing itself. Slipping into a character, thinking like them, reacting like them, worrying about what they worry about, is empathy training disguised as a hobby. Good marketers do the same thing. They imagine their audience’s motivations, anxieties, blind spots, and aspirations. They adjust on the fly. They listen closely for what the audience is actually saying, not just what the strategy deck claims they want.
+Adequacy is a competitive dead zone. It prevents people from yelling, but it won’t make them evangelize. You’re simply a commodity. Your competitors are meeting those expectations too. Meeting expectations is the minimum entrance fee to the game, not the goal.
 
-A good D&D table is also a masterclass in adaptability. No plan survives contact with the party. Someone rolls a natural one, someone else announces an unhinged plan involving fire, rope, and optimism, and suddenly the story veers off-road. The ability to pivot without losing the plot is exactly what marketers do when trends shift, KPIs wobble, or a campaign needs rethinking on the spot.
+To become a product wizard, we need to understand the Kano Model. It separates user needs into three levels of fun:
 
-Being a lifelong D&D player isn’t just a quirky fun fact, it’s a training ground for building creative, empathetic, audience-centered narratives. It teaches you to hold the big picture while reacting to unpredictable variables. It teaches you to collaborate without dominating. It teaches you that the best stories always come from the group, not the hero.
+1. Must-Haves (The Bare Minimum): These are the things users assume are there. They cause rage if they’re missing, but zero excitement if they're present. (e.g., Your car starts when you turn the key. No parade for that.)
 
-So if you’re searching for your next great marketer, consider looking for someone who already knows how to build worlds with others and guide a messy team toward a shared narrative. Who knows they just might be looking for a group as well.
+2. Performance (The Wish List): These are the incremental upgrades. More storage, faster load times. You get a little more happiness for a little more effort. This is the safe, but boring, zone.
+
+3. Delighters (The Holy Grail): These are the features nobody asked for. They’re unarticulated and unexpected. They cause massive, disproportionate satisfaction when they appear. This is where you mint evangelists.
+
+Our mission is clear: Stop grinding away at the Wish List and start focusing on the Delighters. True Delight comes from solving the Unarticulated Need, the pain point so subtle or so futuristic that the user couldn't even frame it as a request.
+
+* Customers asked for faster horses. We gave them the car. (A Delighter.)
+* Users asked for better document folders. We gave them cloud collaboration in real-time. (A Delighter.)
+
+The skill needed isn't having big ears; it's deep, slightly creepy observation. It means watching what users do, not just what they say, and connecting those dots to a future they don't yet believe is possible.
+
+Never mistake your minimum effort for your maximum potential. Structure your roadmap into two buckets:
+
+FUND A: The Maintenance Fund (Meeting Expectations) - Bug fixes, stability, and the Must-Haves needed to stay alive. Your price of entry.
+
+FUND B: The Delight Fund (Exceeding Expectations) - Strategic bets, innovative leaps, and features that deliver the unexpected Delighter moments. Your market advantage.
+
+If your entire roadmap is stuck funding the bare minimum, your product is not on a slow, comfortable glide path to irrelevance, it's just coasting while your competition is flying.

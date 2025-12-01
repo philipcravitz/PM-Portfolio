@@ -19,4 +19,4 @@ For example: a designer says, “We need this to feel lighter,” while an engin
 
 Translation means connecting inputs, not controlling them. And yes, it takes empathy, the sharp, practical kind. When done well, translation work transforms potential chaos into a symbiotic harmony. The PM not only provides the sub-titles, they add value by guiding through curiosity, clarity, and constant reframing.
 
-So the next time sub-space interference garbles the transmission between business, design, and dev, take a breath, translate, and remember: fluent “user” is still the one language that binds the galaxy stronger than the Force. And if you ever get lost, just channel your inner C-3PO — anxious, optimistic, and always ready to translate for the greater good.
+So the next time sub-space interference garbles the transmission between business, design, and dev, take a breath, translate, and remember: fluent “user” is still the one language that binds the galaxy stronger than the Force. And if you ever get lost, just channel your inner C-3PO; anxious, optimistic, and always ready to translate for the greater good.
