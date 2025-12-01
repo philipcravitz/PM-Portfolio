@@ -1,6 +1,6 @@
 ---
 title: "How to Build Sandcastles That Pay for Steel"
-date: "November 24, 2025"
+date: "December 1, 2025"
 tags: ["Technical Debt", "Vision Debt", "Product Strategy", "Prioritization", "Resource Allocation"]
 ---
 There is nothing more permanent than a "temporary" feature built for speed to market. It's a sandcastle, stable enough to withstand a few stiff breezes, but topples at the first strong push.
