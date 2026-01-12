@@ -2,6 +2,7 @@
 title: "The Stove and the Burn: The High Cost of Deceptive Design"
 date: "January 8, 2026"
 tags: ["Ethical Product Management", "UX Dark Patterns", "Nudge Theory in Tech", "Product-Led Growth (PLG)", "Digital Trust Strategy"]
+image: "/assets/blog-images/stoveCTA.png"
 ---
 We tell kids: “Don’t touch the stove.” Then, we go to work and design products that put the stove front and center, make the burners glow a hypnotic orange, and hide the warning label in six-point, light-grey font.
 

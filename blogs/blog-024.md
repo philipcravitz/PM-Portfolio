@@ -2,6 +2,7 @@
 title: "The Gold in the Graveyard: Why the 'No' Pile is the PM's True Treasure Map"
 date: "December 15, 2025"
 tags: ["Product Management", "CRM Insights", "Lost Leads Analysis", "User Experience Optimization", "Data-Driven Product Strategy"]
+image: "/assets/blog-images/gold.png"
 ---
 Deal, or no deal. As a product manager, you obviously want the deal. But the strategic gold, the kind that shapes roadmaps and fixes pipelines at the root, isn't found in the "Yes" pile. It's found in the mountain of "No" and the graveyard of the "Almost."
 
