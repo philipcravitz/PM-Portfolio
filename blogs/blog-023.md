@@ -2,6 +2,7 @@
 title: "Rent the Plumbing, Build the House"
 date: "December 9, 2025"
 tags: ["Build vs Buy Strategy", "Product Management Best Practices", "Resource Allocation in Tech", "Custom Software vs Off-the-Shelf", "Scaling Product Development"]
+image: "/assets/blog-images/PlumbingHouse.png"
 ---
 Some product debates refuse to die. Build or buy is the kitchen ghost of tech. You turn the lights on and it's sitting there again, staring at you like you owe it money. Everyone has an opinion, and half of them are based on vibes instead of math. So here is the thing: build vs buy is not a morality play. It is resource allocation dressed up like a philosophy argument.
 

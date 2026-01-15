@@ -2,6 +2,7 @@
 title: "Totally Not A Trap: The Art Of Building Trust With Action, Not Words"
 date: "December 7, 2025"
 tags: ["Trust", "Value Exchange", "Product Strategy", "User Experience", "Long-Term Growth"]
+image: "/assets/blog-images/TrustMe.png"
 ---
 Trust me, I’m totally trustworthy… said no one credible ever. Don't turn your product’s value exchange into a cringe-fest.
 
