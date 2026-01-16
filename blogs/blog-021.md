@@ -2,6 +2,7 @@
 title: "Reverse-Engineering Imposter Syndrome: Why Self-Doubt is a Senior PM’s Strategic Weapon"
 date: "December 3, 2025"
 tags: ["Strategic Self-Doubt", "Risk Management", "Amplifying Dissent", "Pivot and Iteration", "Product Strategy"]
+image: "/assets/blog-images/DoubtAsStrength.png"
 ---
 If you're a seasoned product manager and feel like an imposter, you’re probably the most prepared person in the room.
 

@@ -2,6 +2,7 @@
 title: "The Signal vs. Noise Battle: How to Prioritize User Input When Everyone Is Shouting"
 date: "November 29, 2025"
 tags: ["User Research", "Prioritization", "Product Strategy", "Signal vs. Noise", "Decision-Making"]
+image: "/assets/blog-images/SignalNoise.png"
 ---
 Hey Product People! You don't need a HAM radio license to find your true user signal, but you do need a filter, because the broadcast “Absolute Panic” is coming in too loud and too clear.
 
