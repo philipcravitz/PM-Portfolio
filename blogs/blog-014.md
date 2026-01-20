@@ -2,6 +2,7 @@
 title: "How to Get Fewer People in the Room for a Masterful Show"
 date: "November 8, 2025"
 tags: ["Career Reinvention & Self-Reflection", "Authentic Job Searching", "Empathy & Human Connection"]
+image: "/assets/blog-images/Egress.png"
 ---
 Ever feel like your meetings are more of a chaotic circus than a focused strategy session? The lions are roaring, the jugglers are dropping things, and someone just set up a clown car of “quick side discussions.” Welcome to the big top of modern collaboration.
 

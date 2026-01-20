@@ -2,6 +2,7 @@
 title: "The Prototype Paradox: Testing Ideas Engineers Won't Actually Build (and How to Fix It)"
 date: "November 24, 2025"
 tags: ["Prototyping", "Cross-Functional Collaboration", "Experimentation", "Product Delivery", "User-Centered Design"]
+image: "/assets/blog-images/ProtoParadox.png"
 ---
 It's that glorious moment when the A/B test numbers sing like angels. A 20% uplift! A spike in retention! You rush, beaming, to the engineering team, ready for high-fives.
 

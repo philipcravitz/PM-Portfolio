@@ -2,6 +2,7 @@
 title: "The Two-Star Trap: Avoiding the Complaint Zone"
 date: "November 21, 2025"
 tags: ["Kano Model", "Customer Delight", "Product Strategy", "User-Centered Design", "Innovation"]
+image: "/assets/blog-images/DelightMe.png"
 ---
 Congratulations, your customers are currently not complaining!
 That sound of silence is actually the whimper of market irrelevance. Here's how to ditch mediocrity for magic.

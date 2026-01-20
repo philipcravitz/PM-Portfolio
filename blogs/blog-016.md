@@ -2,6 +2,7 @@
 title: "Hot take: Dungeons & Dragons players make great marketers"
 date: "November 17, 2025"
 tags: ["Collaborative Storytelling", "Empathy", "Adaptability", "Creativity", "Narrative Building"]
+image: "/assets/blog-images/MarketingDice.png"
 ---
 Not because we can quote spell slots or tell you the AC of a gelatinous cube, but because years of collaborative storytelling hard-wire the exact skills marketing actually requires: empathy, improvisation, audience understanding, and the courage to build a story together in real time.
 

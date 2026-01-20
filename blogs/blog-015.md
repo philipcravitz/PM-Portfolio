@@ -2,6 +2,7 @@
 title: "Comfort is the enemy of usable products"
 date: "November 10, 2025"
 tags: ["User-Centered Empathy", "Challenging Comfort and Bias", "Iterative Learning and Reflection"]
+image: "/assets/blog-images/MirrorMirror.png"
 ---
 Ever peered into the mirror and thought, Who’s that? For product people, that stranger isn’t a crisis, it’s a gift. The universe is handing you a new perspective, the kind you can’t get from dashboards, decks, or yet another “quick sync.” Welcome to the funhouse.
 
