@@ -2,6 +2,7 @@
 title: "Why the Chicken Should Never Cross the Road: But Does Anyway"
 date: "October 28, 2025"
 tags: ["Curiosity & Insight", "Data-Driven Decision Making", "Human Judgment & Storytelling"]
+image: "/assets/blog-images/Chicken.png"
 ---
 You’re a chicken. Really, just go with me. You want to cross the road. Step off the curb, shuffle to the other side. Stats say it’s a terrible idea: dangerous, low payoff, high risk. Yet you do it anyway because you have a notion. Life, and business, isn’t lived by numbers alone.
 

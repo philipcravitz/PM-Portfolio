@@ -1,7 +1,8 @@
 ---
 title: "No Authority? No Problem. How to Motivate Without the Boss Badge"
-date: "November 7, 2025"
+date: "November 8, 2025"
 tags: ["Leading Without Authority", "Collaboration and Buy-In", "Human-Centered Leadership"]
+image: "/assets/blog-images/Badge.png"
 ---
 Leadership’s winning bet: buy-in, not compliance.
 Here’s how to get teams engaged, motivated, and even laughing, without a title or authority.

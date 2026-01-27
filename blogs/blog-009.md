@@ -1,7 +1,8 @@
 ---
-title: "What If – The Yes And of Product Leadership"
+title: "What If – The 'Yes And' of Product Leadership"
 date: "October 30, 2025"
 tags: ["Creative Problem-Solving", "Product Leadership & Collaboration", "Experimentation & Validation"]
+image: "/assets/blog-images/WhatIf.png"
 ---
 “What if?”
 Two small words that change everything, and also the start of most meetings that go 30 minutes over schedule.

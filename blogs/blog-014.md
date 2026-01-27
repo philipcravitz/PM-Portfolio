@@ -1,6 +1,6 @@
 ---
 title: "How to Get Fewer People in the Room for a Masterful Show"
-date: "November 8, 2025"
+date: "November 12, 2025"
 tags: ["Career Reinvention & Self-Reflection", "Authentic Job Searching", "Empathy & Human Connection"]
 image: "/assets/blog-images/Egress.png"
 ---

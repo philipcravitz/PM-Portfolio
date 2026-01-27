@@ -2,6 +2,7 @@
 title: "The Humor Edge: Why Laughing at Work (and Life) Improves Productivity"
 date: "November 4, 2025"
 tags: ["Humor as a Leadership & Engagement Tool", "Human Connection in the Workplace", "Practical Impact of Soft Skills"]
+image: "/assets/blog-images/HumorLeader.png"
 ---
 Ever bite your tongue at work to seem “serious”?
 Turns out, humor is how the best ideas show up.

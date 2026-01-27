@@ -2,6 +2,7 @@
 title: "You’re Not Stuck, You’re in Draft Mode"
 date: "November 2, 2025"
 tags: ["Iteration & Continuous Improvement", "Growth Mindset", "Professional Development / Productivity"]
+image: "/assets/blog-images/DraftMode.png"
 ---
 Ever feel like your career is one long Google Doc full of edits, comments, and “final_final_v6” versions?
 Good. That means you’re growing.

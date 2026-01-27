@@ -1,6 +1,6 @@
 ---
 title: "Comfort is the enemy of usable products"
-date: "November 10, 2025"
+date: "November 14, 2025"
 tags: ["User-Centered Empathy", "Challenging Comfort and Bias", "Iterative Learning and Reflection"]
 image: "/assets/blog-images/MirrorMirror.png"
 ---
