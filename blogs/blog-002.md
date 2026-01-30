@@ -2,6 +2,7 @@
 title: "When Your Job Hunt Steals Your Fun: And How I Got It Back"
 date: "September 9, 2025"
 tags: ["Job Search Journey", "Mental Health", "Personal Growth"]
+image: "/assets/blog-images/NewDay.png"
 ---
 Some questions make you stop in your tracks. Last week, someone asked me, “So what do you do for fun?”, and I realized I didn’t know the answer.
 

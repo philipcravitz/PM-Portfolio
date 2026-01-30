@@ -2,6 +2,7 @@
 title: "I’m Over Here! Going Hoarse in a Cacophony of Voices"
 date: "September 28, 2025"
 tags: ["Authentic Storytelling & Personal Voice", "Job Search Visibility & Human Connection", "Resilience Through Humor & Emotional Intelligence"]
+image: "/assets/blog-images/Cacophany.png"
 ---
 A recurring theme in my adventures of job hunting is the feeling that nobody sees me. I’m just a face in a crowd, a voice in a sea of other voices, and we’re all screaming to be noticed. I feel you. I would throw you a lifeline if I could, but I’m flailing for one myself.
 

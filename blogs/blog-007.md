@@ -2,6 +2,7 @@
 title: "“Why”… It Matters – Making A Better Product Manager"
 date: "October 21, 2025"
 tags: ["Curiosity as a Superpower", "Product Management & Problem-Solving", "Growth Mindset & Humility"]
+image: "/assets/blog-images/Why.png"
 ---
 I ask “why”, mostly silently, tucked in the corners of my mind. On walks, in meetings, even mid-bite at dinner, my curiosity hums: Why this? Why now? What’s really going on? That quiet questioning sparks ideas and sometimes makes me feel like a detective in my own life. Curiosity isn’t just a quirk, it guides how I learn, think, and solve problems. Over time, it’s become my most valuable career skill.
 

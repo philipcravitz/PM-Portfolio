@@ -2,6 +2,7 @@
 title: "AI Ate My Homework: And Other Bonafide Excuses Why the Job Market Is So Hard"
 date: "September 14, 2025"
 tags: ["AI & Job Search", "Career Tools & Productivity", "Authenticity in Tech"]
+image: "/assets/blog-images/Homework.png"
 ---
 AI ate my homework. That’s my story, and I’m sticking to it.
 

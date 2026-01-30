@@ -2,6 +2,7 @@
 title: "My Job Hunt Saga"
 date: "September 1, 2025"
 tags: ["Career Reflections", "Professional Growth"]
+image: "/assets/blog-images/Journey.png"
 ---
 
 Balancing user needs, business goals, and technical feasibility is at the heart of prioritization...

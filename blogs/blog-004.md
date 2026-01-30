@@ -2,6 +2,7 @@
 title: "Kissing Frogs – A Job Seeker’s Journey to Self-Awareness"
 date: "September 21, 2025"
 tags: ["Career Reinvention & Self-Reflection", "Authentic Job Searching", "Empathy & Human Connection"]
+image: "/assets/blog-images/KissFrog.png"
 ---
 Scrolling through LinkedIn and seeing hundreds of applicants for roles I’m excited about, I realize I need to stand out in a crowded field. Looking in the mirror, I see someone familiar, but also someone evolving. A version of me ready to embrace new challenges, explore different industries, and tell my story in a way that highlights both experience and growth.
 

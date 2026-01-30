@@ -2,6 +2,7 @@
 title: "Say Hello to My (Smarter) Little Friend: How AI Is Getting Personal"
 date: "October 1, 2025"
 tags: ["Human–AI Collaboration", "Future of Work & Product Management", "Ethics, Trust & Human-Centered Design"]
+image: "/assets/blog-images/LittleFriend.png"
 ---
 Remember when “AI” meant asking your phone about the weather or setting a timer for pasta? Those days already feel charmingly simple. Fast-forward to now, and AI isn’t just listening, it’s learning. It’s beginning to understand us: how we work, think, and even procrastinate.
 
