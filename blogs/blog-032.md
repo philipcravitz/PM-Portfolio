@@ -1,7 +1,7 @@
 ---
 title: "Guerrilla Product Management: The Art of the Resourceful Chef"
 date: "February 2, 2026"
-tags: ["Remote team productivity", "Team bonding strategies", "Distributed team management", "Forming Storming Norming Performing", "Product manager playbook"]
+tags: ["Guerrilla product management", "Product management without budget", "Intrapreneurship in product management", "Building products in large organizations", "Resourceful product manager mindset"]
 image: "/assets/blog-images/StoneSoup.png"
 ---
 Stop waiting for a formal roadmap to solve a human problem. With a little ingenuity and a lot of charm, you can cook up "Stone Soup" from the cracks of any organization.
@@ -27,9 +27,9 @@ I didn't ask for a new OKR. I just put the user's need in the middle of the tabl
 
 Slowly, an unofficial team assembled. We were engineers, designers, and specialists who still had heart behind the corporate veil. We didn’t abandon our "day jobs"—we all still hit our official marks and metrics—but we contributed what we could to this "grassroots" priority.
 
-> - We built GUIs out of thin air.
-> - We architected API layers to talk to legacy back-ends.
-> - We assembled a prototype that gave local help a national platform.
+We built GUIs out of thin air.
+We architected API layers to talk to legacy back-ends.
+We assembled a prototype that gave local help a national platform.
 
 ### The Momentum of Humanity
 We actually launched. We proved that you could bridge a legacy system and solve a massive human pain point using nothing but the "spare parts" of a global bank.
@@ -41,8 +41,8 @@ But the momentum was amazing. For a brief moment, we showed that the "System" do
 ### The Chef’s Secret
 Budget is a luxury, but heart is a resource. Product Management is the art of organizing around good ideas, not just spreadsheets.
 
-> - Find the Hunger: Locate the pain point the official roadmap is ignoring.
-> - Invite the Tribe: Don't look for "resources." Look for people who want to feel human again.
-> - Use the Scraps: Legacy code and "deprecated" tools are just ingredients waiting for a chef.
+Find the Hunger: Locate the pain point the official roadmap is ignoring.
+Invite the Tribe: Don't look for "resources." Look for people who want to feel human again.
+Use the Scraps: Legacy code and "deprecated" tools are just ingredients waiting for a chef.
 
 These projects are possible. They show the organization that there is a spark of life behind the corporate machine. You don't need permission to be a hero; you just need to start the fire.
