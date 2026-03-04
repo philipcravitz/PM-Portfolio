@@ -19,7 +19,7 @@ Great PMs don’t refuse to build sandcastles; they just have a plan for their d
 To pivot from reactive hacking to strategic scaffolding, ensure every short-term win serve two masters:
 1) Immediate Value (The Transaction): Stop the bleeding or hit the OKR.
 2) Vision Funding (The Investment): The insights or capital gained from the hack must directly pay for the deep foundation work required later.
-
+### 
 But, how do you make sure the sandcastle is paying for the steel foundation? You operationalize the trade-off:
 
 Timebox the Temporary: Secure a hard-stop date for technical debt remediation before launch. Build it with the explicit agreement to rebuild or sunset next quarter.

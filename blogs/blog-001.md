@@ -19,5 +19,5 @@ All that said, and thank you if you've read this far, I intend to share my exper
 1. Attract more attention to my profile - it's the reason I'm on LinkedIn
 2. Provide a laugh or a thoughtful ponderance to anyone willing to put up with my nonsense
 3. Give me a record of my journey and allow me to look back and see the progress I've made as a person and a job hunter
-
+### 
 If all goes well, these will be the start of something great. Enjoy.

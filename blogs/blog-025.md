@@ -22,18 +22,18 @@ To build better products, we have to distinguish between the help, the trap, and
 
 My personal red line is the Daylight Test. Imagine standing in front of your users and explaining exactly why a flow works the way it does: not in legal jargon, but in plain English.
 
-* The Nudge Explanation: “We made this the default because most people told us it was the safest option, and you can change it with one click.” (Passes the test.)
+- The Nudge Explanation: “We made this the default because most people told us it was the safest option, and you can change it with one click.” (Passes the test.)
 
-* The Manipulation Explanation: “We hid the unsubscribe link because our churn numbers were trending the wrong way and I had a meeting with the VP.” (Fails the test.)
-
+- The Manipulation Explanation: “We hid the unsubscribe link because our churn numbers were trending the wrong way and I had a meeting with the VP.” (Fails the test.)
+### 
 Sludge might boost your short-term metrics, but it quietly sours your brand. It creates "hostage users" instead of "loyal users." Hostages leave the moment they find a crack in the door; loyalists stay even when the exit is wide open.
 
 ### Designing for the Intelligent Adult
 
 The most ethical (and eventually, most profitable) path is to design for an intelligent adult. This is someone with limited time, decent judgment, and zero interest in being tricked. To respect them, we must:
 
-> * Be transparent: Tell them why you’re suggesting a path.
-> * Balance the exits: Make the "Out" as easy to find as the "In."
-> * Respect their silence: Don’t exploit the fact that people don't read every line of copy to sneak in extra charges or data permissions.
-
+-  Be transparent: Tell them why you’re suggesting a path.
+-  Balance the exits: Make the "Out" as easy to find as the "In."
+-  Respect their silence: Don’t exploit the fact that people don't read every line of copy to sneak in extra charges or data permissions.
+### 
 In a world where products fight over microscopic molecules of trust, your real asset is your reputation. Build things you would feel comfortable explaining in the harsh light of day. Trust compounds longer than any dark pattern ever will.

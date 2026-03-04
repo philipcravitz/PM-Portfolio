@@ -12,10 +12,10 @@ In product management, curiosity isn’t optional, it’s my secret weapon. Ever
 
 Curiosity isn’t just about gathering knowledge, it’s about humility. It’s acknowledging that I don’t have all the answers and recognizing that the smartest move is often to ask someone else what they see. Listening, observing, and synthesizing insights from all corners of a project, team, or industry is invaluable. I always strive to:
 
-** Ask boldly, listen actively: The best insights rarely come from statements, they come from questions.
-** Dive into the unfamiliar: Growth lives just beyond comfort zones.
-** Mindfully apply: Curiosity only has value when it informs decisions and drives action.
-
+- Ask boldly, listen actively: The best insights rarely come from statements, they come from questions.
+- Dive into the unfamiliar: Growth lives just beyond comfort zones.
+- Mindfully apply: Curiosity only has value when it informs decisions and drives action.
+### 
 Industries shift, technology evolves, and user expectations change overnight. Curiosity keeps me agile. I’ve learned to see unexpected twists as chances to grow. Complexity becomes a puzzle I want to solve, not a roadblock. Embracing curiosity transforms uncertainty into opportunity.
 
 Curiosity has shaped the professional I am today: a lifelong learner, a problem solver, and a product manager who thrives in ambiguity. It turns challenges into opportunities, complexity into clarity, and ideas into solutions.

@@ -30,8 +30,8 @@ Informal roles, the skeptic who catches the edge cases, the mediator who cools t
 
 ### The PM’s Playbook for Team Magic
 For a Product Manager, designing the team is as critical as designing the roadmap.
-> 1.	Prioritize Working over Updating: Ninety minutes of messy, live problem-solving does more for a team than five perfect deck slides.
-> 2.	Protect Team Continuity: Stable teams outperform "optimized" staffing models every time. Treating people like interchangeable parts in a machine misses the intangible productivity of cohorts.
-> 3.	Design Undefined White Space on Purpose: Build in open-ended questions, bring problems to solve together, and ensure there is room to be uncertain. For example, agenda-less co-working sessions or live teardowns of real problems can give the team time to naturally develop roles and norms. If you do not create room for informal norms to form, compliance becomes the default behavior.
-
+1.	Prioritize Working over Updating: Ninety minutes of messy, live problem-solving does more for a team than five perfect deck slides.
+2.	Protect Team Continuity: Stable teams outperform "optimized" staffing models every time. Treating people like interchangeable parts in a machine misses the intangible productivity of cohorts.
+3.	Design Undefined White Space on Purpose: Build in open-ended questions, bring problems to solve together, and ensure there is room to be uncertain. For example, agenda-less co-working sessions or live teardowns of real problems can give the team time to naturally develop roles and norms. If you do not create room for informal norms to form, compliance becomes the default behavior.
+### 
 Productivity is not a place: it is a state of alignment created through shared work and enough time together to earn trust. That is not about authority. That is about craft.
