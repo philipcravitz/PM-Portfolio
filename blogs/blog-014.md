@@ -12,13 +12,13 @@ The fix isn’t more process. It’s more precision. The most productive meeting
 
 Here’s the secret to turning your meetings from three-ring chaos into a masterful show:
 
-**Cast the critical few.**
+### Cast the critical few.
 Invite only the people who bring expertise, decision-making power, or essential context. This isn’t exclusion, it’s design. Every voice should matter. If someone’s unsure why they’re there, that’s a sign the cast list needs trimming.
 
-**Set the scene.**
+### Set the scene.
 Take one minute at the top to state the three P’s: Purpose, Process, Payoff. What’s this meeting for? How will we run it? What will success look like? Framing the conversation upfront keeps everyone aligned when things start to wander.
 
-**Be the ringmaster, not the referee.**
+### Be the ringmaster, not the referee.
 You’re not there to police discussion, you’re there to direct it. Encourage healthy debate, but know when to pull things back on track. Too much structure kills creativity; too little loses focus. The balance is the magic.
 
 When you nail this balance, meetings start to feel less like a time sink and more like a performance worth showing up for. Every person has a role, every act has a purpose, and the show ends on time; applause optional but encouraged.

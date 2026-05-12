@@ -2,7 +2,7 @@
 title: "The Two-Star Trap: Avoiding the Complaint Zone"
 date: "November 21, 2025"
 tags: ["Kano Model", "Customer Delight", "Product Strategy", "User-Centered Design", "Innovation"]
-image: "/assets/blog-images/DelightMe.png"
+image: "/assets/blog-images/DelightMeMark.png"
 ---
 Congratulations, your customers are currently not complaining!
 That sound of silence is actually the whimper of market irrelevance. Here's how to ditch mediocrity for magic.
@@ -23,9 +23,9 @@ To become a product wizard, we need to understand the Kano Model. It separates u
 
 Our mission is clear: Stop grinding away at the Wish List and start focusing on the Delighters. True Delight comes from solving the Unarticulated Need, the pain point so subtle or so futuristic that the user couldn't even frame it as a request.
 
-* Customers asked for faster horses. We gave them the car. (A Delighter.)
-* Users asked for better document folders. We gave them cloud collaboration in real-time. (A Delighter.)
-
+-  Customers asked for faster horses. We gave them the car. (A Delighter.)
+-  Users asked for better document folders. We gave them cloud collaboration in real-time. (A Delighter.)
+### 
 The skill needed isn't having big ears; it's deep, slightly creepy observation. It means watching what users do, not just what they say, and connecting those dots to a future they don't yet believe is possible.
 
 Never mistake your minimum effort for your maximum potential. Structure your roadmap into two buckets:

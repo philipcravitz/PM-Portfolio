@@ -13,10 +13,10 @@ In improv theater, there’s a principle called “Yes, and”, a way of co-crea
 
 In product work, “What if” serves a similar purpose. It’s not about rejecting constraints, but reimagining them.
 
-“What if compliance didn’t block us, what would need to change?”
-“What if we tested a smaller version first?”
-“What if both ideas were right, just for different users?”
-
+- “What if compliance didn’t block us, what would need to change?”
+- “What if we tested a smaller version first?”
+- “What if both ideas were right, just for different users?”
+### 
 I saw this play out on a project where we were debating how a lead form should be designed, short and simple, or multi-step and comprehensive.
 
 Rather than take sides, I asked: “What if both could work?”

@@ -22,7 +22,7 @@ Before you test a teammate's proposal, you help them strengthen it:
 - Clarify the upside: "If this succeeds, it doesn't just fix a bug; it reduces our support load by 20%. Let's lead with that."
 
 - Build the frame: You help them articulate the strongest possible version of their argument before you apply the pressure.
-
+### 
 ### The Test: Blowing the House Down
 Once the idea is propped up with steel, then, and only then, do you huff and puff. You apply the hard questions of the Iron Triangle:
 

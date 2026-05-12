@@ -16,8 +16,3 @@ When I’m working with cross-functional teams, I don’t just assign tasks. I m
 Motivation without authority is also about creating momentum through shared wins. Celebrate progress, even the tiny victories. Reinforce how each person’s effort contributes to the mission. People may not report to you, but they will follow your lead if they understand the impact, feel heard, and have room to contribute creatively (and maybe even throw in a fun idea or two).
 
 In short, leading without authority is about listening first, finding common ground, inspiring purpose, and empowering action, all while keeping your sense of humor intact. It’s not easy, but it’s one of the most rewarding ways to build collaboration, trust, and meaningful results in complex organizations. And if you can sneak in a laugh along the way, even better.
-
-
----
-
-💬 Ever led a team without authority? How did you get people engaged, and maybe even laughing along the way?

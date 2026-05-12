@@ -24,7 +24,7 @@ A great PM doesn't just synthesize feedback; they systematically ignore everythi
 
 The Signal is the data that illuminates a core, unmet user pain point that aligns with your long-term product vision. It's the reason why users are really using your product.
 
-**Three Filters to Silence the Shouting**
+### Three Filters to Silence the Shouting
 
 The Problem-Fit Filter: Does this feedback identify a fundamental pain point, or is it just prescribing a solution? (e.g., The Signal: "I can't share files securely." The Noise: "I need a dedicated green 'share' button.") Rule: Always ruthlessly discard prescribed solutions until you understand the underlying pain.
 
